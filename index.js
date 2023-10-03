@@ -6,3 +6,4 @@ const category = 'смартфоны';
 const price = 109999;
 
 console.log(productName);
+console.log(amount * price)
