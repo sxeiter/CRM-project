@@ -4,14 +4,14 @@ const amount = parseInt(prompt("Количество товара"));
     if (Number(amount)) {
         console.log(amount)
     } else {
-        prompt("Вы ввели некорректные данные")
+        alert("Вы ввели некорректные данные")
     }
 const category = prompt("Категория товара");
 const price = parseInt(prompt("Цена товара"));
     if (Number(price)) {
         console.log(price)
     } else {
-        prompt("Вы ввели некорректные данные")
+        alert("Вы ввели некорректные данные")
     }
 
 console.log(productName);
